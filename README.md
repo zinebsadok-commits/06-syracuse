@@ -3,7 +3,7 @@ Ce travail s'effectue dans [l'environnement Github](https://perso.esiee.fr/~cour
 
 # Liste de Syracuse
 
-Cet exercice est la continuité d'un exercice précédent sur [les suites de Syracuse](https://perso.esiee.fr/~courivad/courses/exercices/ex04-suites-syracuse.html) pour lequel les valeurs de la suite étaient calculées à la volée sans mémorisation. L'objectif est ici de les stocker dans une liste pour post traitement.
+Cet exercice est la continuité d'un exercice précédent sur [les suites de Syracuse](https://perso.esiee.fr/~courivad/courses/exercices/ex04-suites-syracuse.html) dans lequel vous retrouverez la définition des grandeurs caractéristiques utilisées dans cet exercice. Précédemment, les valeurs de la suite étaient calculées à la volée sans mémorisation. L'objectif est ici de les stocker dans une liste pour post traitement.
 
 Le fichier ``main.py`` contient :
 
@@ -14,22 +14,32 @@ Le fichier ``main.py`` contient :
   - qui prend en argument un entier ``n`` ;
   - et retourne la liste des valeurs de la suite.
 
+  Pour ``n=3``, les valeurs de la suite sont ``[3, 10, 5, 16, 8, 4, 2, 1]``.
+
 - une fonction secondaire ``temps_de_vol()``
   
   - qui prend en argument une liste de Syracuse ``l`` ;
   - et retourne son temps de vol.
+
+  Pour ``n=3``, le temps de vol est ``7``.
 
 - une fonction secondaire ``temps_de_vol_en_altitude()``
   
   - qui prend en argument une liste de Syracuse ``l`` ;
   - et retourne son temps de vol en altitude.
 
+  Pour ``n=3``, le temps de vol en altitude est ``5``.
+
 - une fonction secondaire ``altitude_maximale()``
   
   - qui prend en argument une liste de Syracuse ``l`` ;
   - et retourne son altitude maximale.
 
+  Pour ``n=3``, l'altitude maximale est ``16``.
+
 - la fonction principale ``main()`` qui fait appel aux fonctions secondaires pour vérifier leur bon fonctionnement .
+
+<!-- START INSERT -->
 
 ## To do
 
@@ -61,3 +71,5 @@ Si le score de qualité ``SQ`` n'est pas maximal, répéter l'étape 5️⃣ en 
 
 > [!CAUTION]
 En cas de soumissions multiples, seule la première est prise en compte.
+
+<!-- END INSERT -->
